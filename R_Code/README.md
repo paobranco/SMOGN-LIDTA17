@@ -76,7 +76,14 @@ nohup R --vanilla --quiet < ExpsDIBS.R &
 
   Given that the experiments take  long time to run, you may be interested in running only a partial set of experiments. To do this you must edit the ExpsDIBS.R file. 
   
-  Lets say, for instance, that you want to run all the workflows in only one data set. To do this you can change the instruction *for(d in 1:20)* in line 113 of ExpsDIBS.R file. If the data set that you select is the fifth, the you need to change this instruction to *for(d in 5)*.
+  Lets say, for instance, that you want to run all the workflows in only one data set. To do this you can change the instruction 
+  ```r 
+  for(d in 1:20)
+  ``` 
+  in line 113 of ExpsDIBS.R file. If the data set that you select is the fifth, the you need to change this instruction to 
+ ```r
+ for(d in 5)
+ ```
   
   You can also change the number and/or the values of the learning algorithms parameters. To achieve this edit the *WFs* list in lines 101 to 104. For instance, if you only want to run the experiments for the svm learner but with more values for the cost parameter, you should comment the lines with the other learners (randomForest, earth and nnet) and add the values you want in the cost. Lines 101 to 104 could be changed as follows:
   
