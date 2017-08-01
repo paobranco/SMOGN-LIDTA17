@@ -6,8 +6,8 @@ This repository has all the code used in the experiments carried out in the pape
 This repository is organized as follows:
 
 * **R_Code** folder - contains all the code for reproducing the experiments described in the paper;
-* **Figures** folder - contains all the figures obtained from the experimental evaluation on 22 real world data sets;
-* **Data** folder - contains the 22 regression data sets used in the experiments carried out;
+* **Figures** folder - contains all the figures obtained from the experimental evaluation on 20 real world data sets;
+* **Data** folder - contains the 20 regression data sets used in the experiments carried out;
 
 
 ### Requirements
