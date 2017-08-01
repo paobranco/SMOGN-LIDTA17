@@ -11,7 +11,7 @@ This will load into R an object named `DSs` which contains a list with 20 object
 
 
 ### Data Sets Description ###
-The main characteristics of the 18 regression data sets included in this folder are as follows:
+The main characteristics of the 20 regression data sets included in this folder are as follows:
 
 
 | Data Set   | N    | t.total| p.nom | p.num | nRare | % Rare |
